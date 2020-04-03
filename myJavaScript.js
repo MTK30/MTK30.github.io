@@ -26,9 +26,9 @@ homeloan && homeloan.getElementById("click",() => {
     window.location = "https://www.quikr.com/homes/homeloan";
 });
 
-let seo = document.getElemenetById("seo");
+let seo = document.getElementById("seo");
 seo && seo.addEventListener("click",() => {
-    window.location = "https://www.quikr.com/homes;
+    window.location = "https://www.quikr.com/homes";
 });
 
 let bibilophile = document.getElementById('biblophile');
@@ -41,5 +41,8 @@ let carrieCarrier = document.getElementById("carreer");
 carrieCarrier && carrieCarrier.addEventListener('click',() => {
     window.location = "https://github.com/MTK30/PlayStarter";
 })
-
 }
+
+(function() {
+    init();
+ })();
