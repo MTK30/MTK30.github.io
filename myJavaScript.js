@@ -22,7 +22,7 @@ clickToView && clickToView.addEventListener("click",()=>{
 });
 
 let homeloan = document.getElementById("homeLoan");
-homeloan && homeloan.getElementById("click",() => {
+homeloan && homeloan.addEventListener("click",() => {
     window.location = "https://www.quikr.com/homes/homeloan";
 });
 
