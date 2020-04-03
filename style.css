@@ -15,9 +15,20 @@ body
 .profile-img img
 {
     width: 100%;
-    height: 100%;
+    height: 80%;
     overflow-x: hidden;
 }
+.profile-img h2 
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.educationalInfo 
+{
+    text-decoration: solid;
+    
+}
+
 .profile-info
 { 
     width: 55%;
